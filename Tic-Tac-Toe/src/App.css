@@ -1,0 +1,42 @@
+.card{
+  background-color: beige;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.grid{
+  height: 350px;
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(58, 58, 48);
+  border-radius: 10px;
+}
+
+button{
+  background: transparent;
+  border: none;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+}
+
+.box {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 0 10px;
+  
+}
+
